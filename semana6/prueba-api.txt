@@ -1,0 +1,14 @@
+Probé la ruta POST http://localhost:3000/registro enviando:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor respondió:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que express.json() permite leer el JSON enviado y los datos llegan en req.body.
